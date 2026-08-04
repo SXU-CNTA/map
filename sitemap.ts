@@ -46,11 +46,8 @@ const categories: { [key: string]: Date } = {}
 for (const category of Object.keys(RouteTitleRecord)) {
   const latest = fg
     .sync(`./content/${category}/**/index.md`)
-    .map((entry) => {
-      return matter.read(entry).data.time || new Date()
-    })
-    .filter((page) => page !== undefined)
-    .sort((a, b) => Date.parse(b) - Date.parse(a))[0]
+    .map((entry) => new Date(matter.read(entry).data.time || Date.now()))
+    .sort((a, b) => b.getTime() - a.getTime())[0]
   categories[category] = latest ?? new Date()
 }
 

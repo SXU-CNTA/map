@@ -10,5 +10,6 @@ const year = new Date().getFullYear()
       <a text-unset href="mailto:cnta@sxu-cnta.cn">邮件联系</a>
     </div>
     <span>© 2015 - {{ year }}, 山西大学计算机与网络技术协会</span>
+    <a text-unset m-t-1 href="https://beian.miit.gov.cn/" target="_blank">晋ICP备19001447号-2</a>
   </footer>
 </template>

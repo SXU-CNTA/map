@@ -12,6 +12,7 @@ import CntaLogo from '../assets/cnta-logo.png?no-inline'
 import GithubMark from '../assets/github-mark.svg?no-inline'
 import GithubMarkWhite from '../assets/github-mark-white.svg?no-inline'
 import WechatIcon from '../assets/wechat.svg?no-inline'
+import WechatIconWhite from '../assets/wechat-white.svg?no-inline'
 import GzhQr from '../assets/gzh.png?no-inline'
 import { ChevronRightIcon, EnvelopeIcon } from '@heroicons/vue/24/solid'
 import { useTitle } from '@vueuse/core'
@@ -124,8 +125,8 @@ if (import.meta.env.SSR) {
           <a href="mailto:cnta@sxu-cnta.cn" h-7 dark:text-white text-black>
             <EnvelopeIcon class="h-7" />
           </a>
-          <div class="group relative" flex="~ items-center" @click="showWechatQr = !showWechatQr">
-            <img :src="WechatIcon" class="h-7 cursor-pointer" alt="微信公众号二维码" />
+          <div class="group relative cursor-pointer" flex="~ items-center" h-7 @click="showWechatQr = !showWechatQr">
+            <AutoDarkImage :src="WechatIcon" :src-dark="WechatIconWhite" h-full alt="微信公众号二维码" />
             <div
               class="invisible absolute left-1/2 top-full z-50 mt-4 h-44 w-44 max-w-[80vw] -translate-x-1/2 translate-y-1 rounded-lg border border-gray-200 bg-white p-2 opacity-0 shadow-lg transition duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 dark:border-truegray-600"
               :class="showWechatQr ? '!visible !translate-y-0 !opacity-100' : ''"

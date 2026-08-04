@@ -68,7 +68,7 @@ meta:
 
 申请后请关注邮件信息 
 
-后续将通过堡垒机进行运维 请阅读[网协堡垒机的使用](../../announcements/guide-ssh/)
+请通过堡垒机进行运维 请阅读[网协堡垒机的使用](../../announcements/guide-ssh/)
 
 ::: info 提示
 
