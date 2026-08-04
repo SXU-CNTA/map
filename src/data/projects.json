@@ -1,0 +1,35 @@
+[
+  {
+    "title": "了解网协",
+    "description": "",
+    "icon": "globe",
+    "link": "https://sxu-cnta.cn/",
+    "internal": false
+  },
+  {
+    "title": "网协统一认证",
+    "description": "一次登录链接所有网协服务",
+    "icon": "key",
+    "link": "https://login.sxu-cnta.cn/login/CNTA?orgChoiceMode=None",
+    "internal": false
+  },
+  {
+    "title": "网协统一网盘",
+    "description": "快速访问协会内部文件",
+    "icon": "folder",
+    "link": "https://cnta-pan.gwy.fun/",
+    "internal": true
+  },
+  {
+    "title": "网协计算资源申请",
+    "description": "便捷建站，便捷计算",
+    "icon": "cloud",
+    "link": "https://cloud.sxu-cnta.cn/"
+  },
+  {
+    "title": "网协代码仓库",
+    "description": "协会内部项目托管处",
+    "icon": "code",
+    "link": "https://git.sxu-cnta.cn/"
+  }
+]

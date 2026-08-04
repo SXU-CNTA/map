@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <rect width="150" height="150" rx="12" fill="#eef0ff"/>
+  <rect x="1" y="1" width="148" height="148" rx="11" fill="none" stroke="#303090" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="75" y="82" font-size="26" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="600" fill="#303090">占位图</text>
+</svg>
