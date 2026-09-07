@@ -14,6 +14,13 @@
     "internal": false
   },
   {
+    "title": "山西大学SRC平台",
+    "description": "山西大学安全应急响应中心 提交漏洞可获学校官方证书",
+    "icon": "key",
+    "link": "http://src.sxu.edu.cn",
+    "internal": true
+  },
+  {
     "title": "网协统一网盘",
     "description": "快速访问协会内部文件",
     "icon": "folder",
