@@ -15,7 +15,7 @@
   },
   {
     "title": "山西大学SRC平台",
-    "description": "山西大学安全应急响应中心 提交漏洞可获学校官方证书",
+    "description": "提交漏洞可获学校官方证书",
     "icon": "key",
     "link": "http://src.sxu.edu.cn",
     "internal": true
@@ -37,6 +37,14 @@
     "title": "网协代码仓库",
     "description": "协会内部项目托管处",
     "icon": "code",
-    "link": "https://git.sxu-cnta.cn/user/login"
+    "link": "https://git.sxu-cnta.cn/user/login",
+    "internal": true
+  },
+    {
+    "title": "网协技术部靶场",
+    "description": "CTF启动！",
+    "icon": "code",
+    "link": "http://ctf.sxu-cnta.cn/",
+    "internal": true
   }
 ]
